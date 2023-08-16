@@ -43,13 +43,6 @@ MsmWindow::MsmWindow( QWidget* parent ) :
     ui->listWidget->setWordWrap( true );
     ui->listWidget->addSeparator( tr( "System Settings" ) );
     addPageWidget( pageKernel );
-    addPageWidget( pageLanguagePackages );
-    addPageWidget( pageUsers );
-    addPageWidget( pageTimeDate );
-    addPageWidget( pageKeyboard );
-    addPageWidget( pageLanguage );
-
-
 
 
     // Connect signals and slots
