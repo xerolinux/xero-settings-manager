@@ -194,7 +194,7 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation>Dodawaj i usuwaj jądra systemowe</translation>
     </message>
     <message>

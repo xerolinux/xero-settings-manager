@@ -194,8 +194,8 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Добавить или удалить ядра garuda</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Добавить или удалить ядра xerolinux</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

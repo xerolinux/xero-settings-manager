@@ -1,0 +1,11 @@
+[Domain]
+Name=xero-settings-manager
+Name[x-test]=xxxero-settings-managerxx
+Icon=kauth-example
+URL=https://github.com/xero/xero-settings-manager
+
+[org.xero.msm.keyboard.save]
+Name=Save Keyboard Settings
+Description=Save Keyboard Settings
+Policy=auth_admin
+Persistence=session

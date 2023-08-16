@@ -194,7 +194,7 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation>Garuda kernelek hozzáadása és eltávolítása</translation>
     </message>
     <message>

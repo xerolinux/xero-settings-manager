@@ -1,20 +1,20 @@
 /*
- *  This file is part of Garuda Settings Manager.
+ *  This file is part of XeroLinux Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Garuda Settings Manager is free software: you can redistribute it and/or modify
+ *  XeroLinux Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Garuda Settings Manager is distributed in the hope that it will be useful,
+ *  XeroLinux Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with XeroLinux Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "KernelCommon.h"
@@ -33,7 +33,7 @@ KernelPage::KernelPage( QWidget* parent ) :
 {
     ui->setupUi( this );
     setTitle( KernelCommon::getTitle() );
-    QPixmap pix=QIcon::fromTheme("preferences-system").pixmap(48), QIcon(":/images/resources/tux-garuda.png");
+    QPixmap pix=QIcon::fromTheme("preferences-system").pixmap(48), QIcon(":/images/resources/tux-xero.png");
     setIcon( pix );
     setName( KernelCommon::getName() );
     connect( ui->refresh, &QPushButton::clicked, m_kernelModel, &KernelModel::update );
@@ -84,8 +84,8 @@ void KernelPage::on_refresh_clicked()
     arguments << "--noconfirm" << "-Fy";
     QVariantMap args;
     args["arguments"] = arguments;
-    KAuth::Action installAction( QLatin1String( "org.garuda.msm.kernel.install" ) );
-    installAction.setHelperId( QLatin1String( "org.garuda.msm.kernel" ) );
+    KAuth::Action installAction( QLatin1String( "org.xero.msm.kernel.install" ) );
+    installAction.setHelperId( QLatin1String( "org.xero.msm.kernel" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 

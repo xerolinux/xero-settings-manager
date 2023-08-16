@@ -1,0 +1,36 @@
+[Domain]
+Name=xero-settings-manager
+Name[x-test]=xxxero-settings-managerxx
+Icon=kauth-example
+URL=https://github.com/xero/xero-settings-manager
+
+[org.xero.msm.users.add]
+Name=Add User
+Description=Add User
+Policy=auth_admin
+Persistence=session
+
+[org.xero.msm.users.remove]
+Name=Remove User
+Description=Remove User
+Policy=auth_admin
+Persistence=session
+
+[org.xero.msm.users.changepassword]
+Name=Change Password
+Description=Change Password
+Policy=auth_admin
+Persistence=session
+
+[org.xero.msm.users.changeaccounttype]
+Name=Change Account Type
+Description=Change Account Type
+Policy=auth_admin
+Persistence=session
+
+[org.xero.msm.users.changeimage]
+Name=Change Image
+Description=Change Image
+Policy=auth_admin
+Persistence=session
+

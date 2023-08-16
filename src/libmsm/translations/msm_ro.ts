@@ -194,8 +194,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Adaugă şi şterge nuclee garuda</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Adaugă şi şterge nuclee xerolinux</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

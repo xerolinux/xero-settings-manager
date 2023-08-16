@@ -39,11 +39,11 @@ Notifier::Notifier( QObject* parent ) :
 {
     m_tray = new KStatusNotifierItem( this );
     m_tray->setTitle( tr ( "XeroLinux Settings Manager" ) );
-    m_tray->setIconByName( "garuda-settings-manager" );
+    m_tray->setIconByName( "xero-settings-manager" );
 
     QMenu* menu = m_tray->contextMenu();
 
-    QAction* msmKernel = new QAction( QIcon( ":/icons/tux-garuda.png" ),
+    QAction* msmKernel = new QAction( QIcon( ":/icons/tux-xero.png" ),
                                       tr ( "Kernels" ),
                                       menu );
     QAction* msmLanguagePackages = new QAction(
@@ -63,13 +63,13 @@ Notifier::Notifier( QObject* parent ) :
     connect( msmKernel, &QAction::triggered,
              [this] ()
     {
-        QProcess::startDetached( "garuda-settings-manager", QStringList() << "-m" << "msm_kernel" );
+        QProcess::startDetached( "xero-settings-manager", QStringList() << "-m" << "msm_kernel" );
         m_tray->setStatus( KStatusNotifierItem::Passive );
     } );
     connect( msmLanguagePackages, &QAction::triggered,
              [this] ()
     {
-        QProcess::startDetached( "garuda-settings-manager", QStringList() << "-m" << "msm_language_packages" );
+        QProcess::startDetached( "xero-settings-manager", QStringList() << "-m" << "msm_language_packages" );
         m_tray->setStatus( KStatusNotifierItem::Passive );
     } );
 
@@ -293,7 +293,7 @@ void Notifier::showNewKernelNotification()
 void
 Notifier::loadConfiguration()
 {
-    QSettings settings( "garuda", "garuda-settings-manager" );
+    QSettings settings( "xero", "xero-settings-manager" );
     m_checkLanguagePackage = settings.value( "notifications/checkLanguagePackages", true ).toBool();
     m_checkUnsupportedKernel = settings.value( "notifications/checkUnsupportedKernel", true ).toBool();
     m_checkUnsupportedKernelRunning = settings.value( "notifications/checkUnsupportedKernelRunning", true ).toBool();
@@ -307,7 +307,7 @@ Notifier::loadConfiguration()
 bool
 Notifier::isPackageIgnored( const QString package, const QString group )
 {
-    QSettings settings( "garuda", "garuda-settings-manager-Notifier" );
+    QSettings settings( "xero", "xero-settings-manager-Notifier" );
     settings.beginGroup( group );
     int value = settings.value( "notify_count_" + package, "0" ).toInt();
     settings.endGroup();
@@ -318,7 +318,7 @@ Notifier::isPackageIgnored( const QString package, const QString group )
 void
 Notifier::addToConfig( const QString package, const QString group )
 {
-    QSettings settings( "garuda", "garuda-settings-manager-Notifier" );
+    QSettings settings( "xero", "xero-settings-manager-Notifier" );
     settings.beginGroup( group );
     int value = settings.value( "notify_count_" + package, "0" ).toInt();
     ++value;

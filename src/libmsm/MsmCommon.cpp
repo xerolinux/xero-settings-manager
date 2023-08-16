@@ -24,5 +24,5 @@ QString
 MsmCommon::getBugReportLink()
 {
     return QString( tr( "Please use <a href='%1'>%1</a> to report bugs." )
-                    .arg( "https://bugs.garuda.org/" ) );
+                    .arg( "https://xerolinux.xyz/" ) );
 }

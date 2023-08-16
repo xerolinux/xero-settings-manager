@@ -194,8 +194,8 @@ Rekomenduojama tas grupes įjungti. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Pridėti ir šalinti garuda branduolius</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Pridėti ir šalinti xerolinux branduolius</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

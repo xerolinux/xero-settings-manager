@@ -194,7 +194,7 @@ Khuyến nghị: Bạn nên kích hoạt những nhóm đó. Bạn có thực s�
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation type="unfinished"/>
     </message>
     <message>

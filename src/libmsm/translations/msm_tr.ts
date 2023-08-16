@@ -194,7 +194,7 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation>Garuda için linux çekirdeği ekle ve kaldır</translation>
     </message>
     <message>

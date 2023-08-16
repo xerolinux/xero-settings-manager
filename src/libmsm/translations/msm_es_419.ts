@@ -194,8 +194,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Agregar y quitar kernels de garuda</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Agregar y quitar kernels de xerolinux</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

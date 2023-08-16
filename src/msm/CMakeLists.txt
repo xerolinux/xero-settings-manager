@@ -27,6 +27,10 @@ SET_TARGET_PROPERTIES(msm_bin
     RUNTIME_OUTPUT_NAME xero-settings-manager)
 target_link_libraries(msm_bin
     msm_page_kernel
+    msm_page_keyboard
+    msm_page_language_packages
+    msm_page_timedate
+    msm_page_users
     msm
     Qt5::Core
     Qt5::Widgets)

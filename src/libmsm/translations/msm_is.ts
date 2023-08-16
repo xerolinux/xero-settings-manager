@@ -194,8 +194,8 @@ Mælt er með því að þessir hópar séu virkjaðir. Ertu viss um að þú vi
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Bæta við og fjarlægja garuda kjarna</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Bæta við og fjarlægja xerolinux kjarna</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

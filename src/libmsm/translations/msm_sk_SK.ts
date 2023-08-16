@@ -194,7 +194,7 @@ Odporúča sa povoliť tieto skupiny. Naozaj chcete pokračovať?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation>Pridanie a odstránenie jadier systému Garuda</translation>
     </message>
     <message>

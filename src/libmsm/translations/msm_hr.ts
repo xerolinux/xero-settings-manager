@@ -194,8 +194,8 @@ Preporuča se omogućiti te grupe. Želite li nastaviti?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Dodaj i ukloni garuda jezgre</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Dodaj i ukloni xerolinux jezgre</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

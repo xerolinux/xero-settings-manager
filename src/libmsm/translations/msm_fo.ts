@@ -194,7 +194,7 @@ Tað er tilmælt at seta hesar bólkar í gildið. Ert tú vísur í at tú vilt
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation type="unfinished"/>
     </message>
     <message>

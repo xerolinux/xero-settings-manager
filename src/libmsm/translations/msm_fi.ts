@@ -194,8 +194,8 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Lisää ja poista garuda ytimiä</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Lisää ja poista xerolinux ytimiä</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

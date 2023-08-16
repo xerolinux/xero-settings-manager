@@ -194,8 +194,8 @@ Het is aangeraden deze groepen te activeren. Wil je echt verder gaan?</translati
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
-        <translation>Voeg toe en verwijder garuda kernels</translation>
+        <source>Add and remove xerolinux kernels</source>
+        <translation>Voeg toe en verwijder xerolinux kernels</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>

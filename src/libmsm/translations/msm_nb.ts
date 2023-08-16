@@ -194,7 +194,7 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove garuda kernels</source>
+        <source>Add and remove xerolinux kernels</source>
         <translation>Legg til og fjern Garudas kjerner</translation>
     </message>
     <message>
