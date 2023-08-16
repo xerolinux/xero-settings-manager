@@ -24,7 +24,6 @@
 #include "KernelPage.h"
 #include "KeyboardPage.h"
 #include "LanguagePackagesPage.h"
-#include "MhwdPage.h"
 #include "TimeDatePage.h"
 #include "UsersPage.h"
 #include "PageWidget.h"
