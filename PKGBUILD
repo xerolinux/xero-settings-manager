@@ -12,7 +12,7 @@ arch=('i686' 'x86_64')
 url="https://github.com/xerolinux/xero-settings-manager"
 license=("GPL")
 depends=('icu' 'qt5-base>=5.12.3' 'hwinfo' 'kitemmodels' 'kauth' 
-         'kcoreaddons' 'ckbcomp' 'xdg-utils' 'mhwd-xero-git')
+         'kcoreaddons' 'ckbcomp' 'xdg-utils')
 optdepends=('xero-settings-manager-notifier-git: qt-based'
             'xero-settings-manager-knotifier-git: knotifications-based')
 makedepends=('git' 'extra-cmake-modules' 'kdoctools' 'qt5-tools' 'knotifications' 
