@@ -1,21 +1,21 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Roland Singer <roland@manjaro.org>
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "MsmCommon.h"
@@ -48,7 +48,7 @@ MhwdModule::MhwdModule( QWidget* parent, const QVariantList& args ) :
                                             PROJECT_VERSION,
                                             MhwdCommon::getDescription(),
                                             KAboutLicense::LicenseKey::GPL_V3,
-                                            "(c) 2014 - 2017 Manjaro Settings Manager developers" );
+                                            "(c) 2014 - 2017 Garuda Settings Manager developers" );
     aboutData->addAuthor( "Ramon Buldó",
                           QStringLiteral( "ramon@manjaro.org" ) );
     aboutData->setCustomAuthorText( QString(), MsmCommon::getBugReportLink() );
@@ -115,6 +115,8 @@ MhwdModule::MhwdModule( QWidget* parent, const QVariantList& args ) :
         MhwdCommon::showItemContextMenu( ui, pos );
     } );
     connect( ui->checkBoxShowAll, &QCheckBox::toggled,
+             this, &MhwdModule::load );
+    connect( ui->checkBoxShowDangerous, &QCheckBox::toggled,
              this, &MhwdModule::load );
 }
 

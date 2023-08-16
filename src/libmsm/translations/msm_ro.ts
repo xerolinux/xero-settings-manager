@@ -194,8 +194,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove manjaro kernels</source>
-        <translation>Adaugă şi şterge nuclee manjaro</translation>
+        <source>Add and remove garuda kernels</source>
+        <translation>Adaugă şi şterge nuclee garuda</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Manjaro Hardware Detection graphical user interface</source>
-        <translation>Interfața grafică de detectare hardware a sistemului Manjaro</translation>
+        <source>Garuda Hardware Detection graphical user interface</source>
+        <translation>Interfața grafică de detectare hardware a sistemului Garuda</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Managerul de Setări al lui Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Managerul de Setări al lui Garuda</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Manjaro Settings</source>
-        <translation>Setările lui Manjaro</translation>
+        <source>Garuda Settings</source>
+        <translation>Setările lui Garuda</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Managerul de Setări al lui Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Managerul de Setări al lui Garuda</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

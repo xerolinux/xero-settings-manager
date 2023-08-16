@@ -1,20 +1,20 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <limits>
 #include "ActionDialog.h"
@@ -43,7 +43,7 @@ MhwdCommon::getTitle()
 QString
 MhwdCommon::getDescription()
 {
-    return QString( tr ( "Manjaro Hardware Detection graphical user interface" ) );
+    return QString( tr ( "Garuda Hardware Detection graphical user interface" ) );
 }
 
 
@@ -105,6 +105,11 @@ MhwdCommon::load( Ui::PageMhwd* ui )
         for ( std::vector<mhwd::Config*>::iterator conf_iter = ( *dev_iter )->availableConfigs.begin();
                 conf_iter != ( *dev_iter )->availableConfigs.end(); conf_iter++ )
         {
+            //Check if installed
+            mhwd::Config* installedConfig = getInstalledConfig( &data, ( *conf_iter )->name, ( *conf_iter )->type );
+            if ( !ui->checkBoxShowDangerous->isChecked() && (*conf_iter)->priority == 0 && installedConfig == nullptr )
+                continue;
+
             //Always expand and show devices with configuration
             deviceItem->parent()->setHidden( false );
             deviceItem->parent()->setExpanded( true );
@@ -139,8 +144,6 @@ MhwdCommon::load( Ui::PageMhwd* ui )
                 ui->buttonInstallNonFree->show();
             }
 
-            //Check if installed
-            mhwd::Config* installedConfig = getInstalledConfig( &data, ( *conf_iter )->name, ( *conf_iter )->type );
             if ( installedConfig == nullptr )
                 item->setCheckState( 2, Qt::Unchecked );
             else
@@ -161,8 +164,8 @@ MhwdCommon::installConfiguration( QString configuration )
 
     QVariantMap args;
     args["arguments"] = QStringList() << "-i" << "pci" << configuration;
-    KAuth::Action installAction( QLatin1String( "org.manjaro.msm.mhwd.install" ) );
-    installAction.setHelperId( QLatin1String( "org.manjaro.msm.mhwd" ) );
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.mhwd.install" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.mhwd" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 
@@ -184,8 +187,8 @@ MhwdCommon::installFreeConfiguration( )
 
     QVariantMap args;
     args["arguments"] = QStringList() << "-a" << "pci" << "free" << "0300";
-    KAuth::Action installAction( QLatin1String( "org.manjaro.msm.mhwd.install" ) );
-    installAction.setHelperId( QLatin1String( "org.manjaro.msm.mhwd" ) );
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.mhwd.install" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.mhwd" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 
@@ -207,8 +210,8 @@ MhwdCommon::installNonFreeConfiguration( )
 
     QVariantMap args;
     args["arguments"] = QStringList() << "-a" << "pci" << "nonfree" << "0300";
-    KAuth::Action installAction( QLatin1String( "org.manjaro.msm.mhwd.install" ) );
-    installAction.setHelperId( QLatin1String( "org.manjaro.msm.mhwd" ) );
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.mhwd.install" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.mhwd" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 
@@ -230,8 +233,8 @@ MhwdCommon::reinstallConfiguration( QString configuration )
 
     QVariantMap args;
     args["arguments"] = QStringList() << "-f" << "-i" << "pci" << configuration;
-    KAuth::Action installAction( QLatin1String( "org.manjaro.msm.mhwd.install" ) );
-    installAction.setHelperId( QLatin1String( "org.manjaro.msm.mhwd" ) );
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.mhwd.install" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.mhwd" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 
@@ -253,8 +256,8 @@ MhwdCommon::removeConfiguration( QString configuration )
 
     QVariantMap args;
     args["arguments"] = QStringList() << "-r" << "pci" << configuration;
-    KAuth::Action installAction( QLatin1String( "org.manjaro.msm.mhwd.remove" ) );
-    installAction.setHelperId( QLatin1String( "org.manjaro.msm.mhwd" ) );
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.mhwd.remove" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.mhwd" ) );
     installAction.setArguments( args );
     installAction.setTimeout( std::numeric_limits<int>::max() );
 

@@ -1,21 +1,21 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Roland Singer <roland@manjaro.org>
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "MhwdCommon.h"
@@ -28,7 +28,8 @@ MhwdPage::MhwdPage( QWidget* parent ) :
 {
     ui->setupUi( this );
     setTitle( MhwdCommon::getTitle() );
-    setIcon( QPixmap( ":/icons/gpudriver.png" ) );
+    QPixmap pix=QIcon::fromTheme("video-display").pixmap(48), QIcon(":/images/resources/gpudriver.png");
+    setIcon( pix );
     setShowApplyButton( false );
     setName( MhwdCommon::getName() );
 
@@ -38,9 +39,9 @@ MhwdPage::MhwdPage( QWidget* parent ) :
     ui->treeWidget->setColumnWidth( 2, 100 );
 
     // Context menu actions and icons
-    ui->installAction->setIcon( QIcon::fromTheme( "list-add", QIcon( ":/icons/add.png" ) ) );
-    ui->removeAction->setIcon( QIcon::fromTheme( "list-remove", QIcon( ":/icons/remove.png" ) ) );
-    ui->reinstallAction->setIcon( QIcon::fromTheme( "view-refresh",  QIcon( ":/icons/restore.png" ) ) );
+   // ui->installAction->setIcon( QIcon::fromTheme( "list-add", QIcon( ":/icons/add.png" ) ) );
+   // ui->removeAction->setIcon( QIcon::fromTheme( "list-remove", QIcon( ":/icons/remove.png" ) ) );
+   // ui->reinstallAction->setIcon( QIcon::fromTheme( "view-refresh",  QIcon( ":/icons/restore.png" ) ) );
 
     ui->buttonInstallFree->setText( MhwdCommon::getButtonFreeText() );
     ui->buttonInstallNonFree->setText( MhwdCommon::getButtonNonFreeText() );
@@ -89,9 +90,8 @@ MhwdPage::MhwdPage( QWidget* parent ) :
     } );
     connect( ui->checkBoxShowAll, &QCheckBox::toggled,
              this, &MhwdPage::load );
-
-    //don't show the KCM disclaimer in separate app
-    ui->kcmdisclaimer->setVisible(false);
+    connect( ui->checkBoxShowDangerous, &QCheckBox::toggled,
+             this, &MhwdPage::load );
 }
 
 

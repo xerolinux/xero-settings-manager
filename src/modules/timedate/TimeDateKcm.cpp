@@ -1,5 +1,5 @@
 /*
- *  Manjaro Settings Manager
+ *  Garuda Settings Manager
  *  Ramon Buldó <ramon@manjaro.org>
  *  Kacper Piwiński
  *

@@ -1,20 +1,20 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <limits>
 #include "ActionDialog.h"
@@ -167,7 +167,8 @@ LanguagePackagesCommon::newParentTreeWidgetItem( Ui::PageLanguagePackages* ui, Q
     item->setSizeHint( 0, QSize( 0, 24 ) );
     item->setExpanded( true );
     item->setFlags( Qt::ItemIsEnabled );
-    item->setIcon( 0, QIcon( ":/images/resources/language.png" ) );
+    QPixmap pix=QIcon::fromTheme("preferences-desktop-locale").pixmap(48), QIcon(":/images/resources/language.png");
+    item->setIcon( 0, pix );
     return item;
 }
 
@@ -205,8 +206,8 @@ LanguagePackagesCommon::installPackages( Ui::PageLanguagePackages* ui  )
         arguments << "--noconfirm" << "--noprogressbar" << "-S" << packages;
         QVariantMap args;
         args["arguments"] = arguments;
-        KAuth::Action installAction( QLatin1String( "org.manjaro.msm.languagepackages.install" ) );
-        installAction.setHelperId( QLatin1String( "org.manjaro.msm.languagepackages" ) );
+        KAuth::Action installAction( QLatin1String( "org.garuda.msm.languagepackages.install" ) );
+        installAction.setHelperId( QLatin1String( "org.garuda.msm.languagepackages" ) );
         installAction.setArguments( args );
         installAction.setTimeout( std::numeric_limits<int>::max() );
 

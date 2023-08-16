@@ -81,46 +81,49 @@
       </widget>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
-       <item>
-        <widget class="QCheckBox" name="checkBoxShowAll">
-         <property name="text">
-          <string>Show all devices</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="kcmdisclaimer">
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Made by Manjaro. &lt;a href=&quot;https://gitlab.manjaro.org/applications/manjaro-settings-manager/-/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Report&lt;/span&gt;&lt;/a&gt; an issue.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="horizontalLayout2"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,1">
+     <item alignment="Qt::AlignLeft">
+      <widget class="QCheckBox" name="checkBoxShowAll">
+       <property name="text">
+        <string>Show all devices</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBoxShowDangerous">
+       <property name="text">
+        <string>Show dangerous configs</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
   </layout>
   <action name="installAction">
+   <property name="icon">
+    <iconset theme="list-add"/>
+   </property>
    <property name="text">
     <string>Install</string>
    </property>
   </action>
   <action name="removeAction">
+   <property name="icon">
+    <iconset theme="list-remove"/>
+   </property>
    <property name="text">
     <string>Remove</string>
    </property>
   </action>
   <action name="reinstallAction">
+   <property name="icon">
+    <iconset theme="view-refresh"/>
+   </property>
    <property name="text">
     <string>Reinstall</string>
    </property>

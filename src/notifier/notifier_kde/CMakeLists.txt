@@ -6,7 +6,7 @@ file(GLOB NOTIFIER_KDE_GLOB
      msm_kde_notifier.desktop
      msm_kde_notifier_settings.desktop
      icons/language.png
-     icons/tux-manjaro.png)
+     icons/tux-garuda.png)
 
 set(NOTIFIER_KDE_SRCS
     ${NOTIFIER_KDE_GLOB}
@@ -26,5 +26,5 @@ target_link_libraries(msm_kde_notifier
     KF5::Notifications)
 
 install(TARGETS msm_kde_notifier DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES msm_kde_notifier.desktop DESTINATION ${KDE_INSTALL_AUTOSTARTDIR})
+install(PROGRAMS msm_kde_notifier.desktop DESTINATION ${KDE_INSTALL_AUTOSTARTDIR})
 install(FILES msm_kde_notifier_settings.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)

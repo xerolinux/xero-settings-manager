@@ -1,27 +1,27 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "KernelCommon.h"
 #include "KernelPage.h"
 #include "ui_PageKernel.h"
 #include "KernelListViewDelegate.h"
-
+#include "ActionDialog.h"
 #include <QtCore/QProcess>
 #include <QtWidgets/QMessageBox>
 
@@ -33,8 +33,10 @@ KernelPage::KernelPage( QWidget* parent ) :
 {
     ui->setupUi( this );
     setTitle( KernelCommon::getTitle() );
-    setIcon( QPixmap( ":/images/resources/tux-manjaro.png" ) );
+    QPixmap pix=QIcon::fromTheme("preferences-system").pixmap(48), QIcon(":/images/resources/tux-garuda.png");
+    setIcon( pix );
     setName( KernelCommon::getName() );
+    connect( ui->refresh, &QPushButton::clicked, m_kernelModel, &KernelModel::update );
 
     KernelSortFilterProxyModel* proxyKernelModel = new KernelSortFilterProxyModel( this );
     proxyKernelModel->setSourceModel( m_kernelModel );
@@ -55,9 +57,6 @@ KernelPage::KernelPage( QWidget* parent ) :
     {
         KernelCommon::showChangelog( index );
     } );
-
-    //don't show the KCM disclaimer in separate app
-    ui->kcmdisclaimer->setVisible(false);
 }
 
 KernelPage::~KernelPage()
@@ -72,4 +71,28 @@ KernelPage::load()
 {
     KernelCommon::load( m_kernelModel );
     QApplication::restoreOverrideCursor();
+}
+
+void KernelPage::on_refresh_clicked()
+{
+    QString title = QString( tr( "Refresh" ) );
+    QString message = QString( tr( "Refresh database with pacman -Fy. \nWould you like to continue?" ) );
+
+    QString information = QString( tr( "The following will happen:\n pacman -Fy" ) );
+
+    QStringList arguments;
+    arguments << "--noconfirm" << "-Fy";
+    QVariantMap args;
+    args["arguments"] = arguments;
+    KAuth::Action installAction( QLatin1String( "org.garuda.msm.kernel.install" ) );
+    installAction.setHelperId( QLatin1String( "org.garuda.msm.kernel" ) );
+    installAction.setArguments( args );
+    installAction.setTimeout( std::numeric_limits<int>::max() );
+
+    ActionDialog actionDialog;
+    actionDialog.setInstallAction( installAction );
+    actionDialog.setWindowTitle( title );
+    actionDialog.setMessage( message );
+    actionDialog.writeToTerminal( information );
+    actionDialog.exec();
 }

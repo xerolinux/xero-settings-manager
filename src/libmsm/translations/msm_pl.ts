@@ -194,7 +194,7 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove manjaro kernels</source>
+        <source>Add and remove garuda kernels</source>
         <translation>Dodawaj i usuwaj jądra systemowe</translation>
     </message>
     <message>
@@ -573,8 +573,8 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Manjaro Hardware Detection graphical user interface</source>
-        <translation>Graficzny interfejs użytkownika wykrywania sprzętu Manjaro</translation>
+        <source>Garuda Hardware Detection graphical user interface</source>
+        <translation>Graficzny interfejs użytkownika wykrywania sprzętu Garuda</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Menedżer ustawień Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Menedżer ustawień Garuda</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Manjaro Settings</source>
-        <translation>Ustawienia Manjaro</translation>
+        <source>Garuda Settings</source>
+        <translation>Ustawienia Garuda</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Zaleca się, aby były one włączone. Czy na pewno chcesz kontynuować?</transl
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Menedżer ustawień Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Menedżer ustawień Garuda</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

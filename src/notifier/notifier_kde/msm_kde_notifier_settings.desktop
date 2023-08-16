@@ -1,18 +1,18 @@
 [Desktop Entry]
-Name=Manjaro Notifier KDE Settings
-Name[da]=Manjaro-notifikator KDE-indstillinger
-Name[fr]=Paramètres du Notifieur KDE Manjaro
-Name[hu]=A Manjaro Notifier KDE beállítása
-Name[pl]=Ustawienia powiadomień Manjaro dla KDE
-Name[sk]=Nastavenia oznámení KDE systému Manjaro
+Name=Garuda Notifier KDE Settings
+Name[da]=Garuda-notifikator KDE-indstillinger
+Name[fr]=Paramètres du Notifieur KDE Garuda
+Name[hu]=A Garuda Notifier KDE beállítása
+Name[pl]=Ustawienia powiadomień Garuda dla KDE
+Name[sk]=Nastavenia oznámení KDE systému Garuda
 
-Comment=Graphical Settings for Manjaro Notifier KDE
-Comment[da]=Grafiske indstillinger til Manjaro-notifikator KDE
-Comment[de]=Grafische Einstellungsverwaltung für Manjaro
-Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur Manjaro
-Comment[hu]=Grafikus beállításkezelő a Manjaro KDE Értesítőhöz
-Comment[pl]=Graficzne ustawienia powiadomień Manjaro dla środowiska KDE
-Comment[sk]=Grafické nastavenia oznámení prostredia KDE pre systém Manjaro
+Comment=Graphical Settings for Garuda Notifier KDE
+Comment[da]=Grafiske indstillinger til Garuda-notifikator KDE
+Comment[de]=Grafische Einstellungsverwaltung für Garuda
+Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur Garuda
+Comment[hu]=Grafikus beállításkezelő a Garuda KDE Értesítőhöz
+Comment[pl]=Graficzne ustawienia powiadomień Garuda dla środowiska KDE
+Comment[sk]=Grafické nastavenia oznámení prostredia KDE pre systém Garuda
 
 Exec=msm_kde_notifier --settings
 Icon=preferences-desktop

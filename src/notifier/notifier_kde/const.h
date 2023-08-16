@@ -1,5 +1,5 @@
 /*
- *  Manjaro Settings Manager
+ *  Garuda Settings Manager
  *  Roland Singer <roland@manjaro.org>
  *
  *  Copyright (C) 2007 Free Software Foundation, Inc.
@@ -22,7 +22,7 @@
 #define CONST_H
 
 
-#define LANGUAGE_PACKAGES_FILE  "/var/lib/manjaro-system-settings/language_packages.list"
+#define LANGUAGE_PACKAGES_FILE  "/var/lib/garuda-system-settings/language_packages.list"
 #define LOCALE_GEN              "/etc/locale.gen"
 #define LOCALE_CONF              "/etc/locale.conf"
 #define LOCALESSUPPORTED "/usr/share/i18n/SUPPORTED"

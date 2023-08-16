@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Garuda Settings Manager
+Name[ca]=Gestor de configuració de Garuda
+Name[da]=Garuda indstillingshåndtering
+Name[de]=Garuda Einstellungen
+Name[en_GB]=Garuda Settings Manager
+Name[es]=Gestor de configuración de Garuda
+Name[fr]=Garuda Gestionnaire de paramètres
+Name[pl]=Menedżer ustawień Garuda
+Name[ro]=Gestionar de Setări Garuda
+Name[sk]=Správca nastavení systému Garuda
+
+Comment=Graphical Settings Manager for Garuda
+Comment[ca]=Gestor de configuració gràfic de Garuda
+Comment[da]=Grafisk indstillingshåndtering til Garuda
+Comment[de]=Grafische Einstellungsverwaltung für Garuda
+Comment[en_GB]=Graphical Settings Manager for Garuda
+Comment[es]=Gestor de configuración gráfico de Garuda
+Comment[fr]=Gestionnaire graphique de paramètres pour Garuda
+Comment[pl]=Graficzny menedżer ustawień systemu Garuda
+Comment[ro]=Gestionar grafic de setări de sistem pt. Garuda
+Comment[sk]=Grafický správca nastavení pre systém Garuda
+
+Exec=garuda-settings-manager
+Icon=garuda-settings-manager
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;X-LXDE-Settings;X-KDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;

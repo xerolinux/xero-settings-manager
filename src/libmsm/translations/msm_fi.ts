@@ -194,8 +194,8 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove manjaro kernels</source>
-        <translation>Lisää ja poista manjaro ytimiä</translation>
+        <source>Add and remove garuda kernels</source>
+        <translation>Lisää ja poista garuda ytimiä</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Manjaro Hardware Detection graphical user interface</source>
-        <translation>Manjaro laitteiston tunnistuksen graaffinen käyttöliittymä</translation>
+        <source>Garuda Hardware Detection graphical user interface</source>
+        <translation>Garuda laitteiston tunnistuksen graaffinen käyttöliittymä</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,7 +644,7 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Manjaro Settings Manager</source>
+        <source>Garuda Settings Manager</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -675,8 +675,8 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Manjaro Settings</source>
-        <translation>Manjaron asetukset</translation>
+        <source>Garuda Settings</source>
+        <translation>Garudan asetukset</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ On suositeltavaa ottaa ne käyttöön. Haluatko varmasti jatkaa?</translation>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Manjaron asetuksien hallinta</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Garudan asetuksien hallinta</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

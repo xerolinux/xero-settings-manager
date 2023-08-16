@@ -1,16 +1,16 @@
 [Domain]
-Name=manjaro-settings-manager
-Name[x-test]=xxmanjaro-settings-managerxx
+Name=garuda-settings-manager
+Name[x-test]=xxgaruda-settings-managerxx
 Icon=kauth-example
-URL=https://github.com/manjaro/manjaro-settings-manager
+URL=https://github.com/garuda/garuda-settings-manager
 
-[org.manjaro.msm.mhwd.install]
+[org.garuda.msm.mhwd.install]
 Name=Install MHWD Configuration
 Description=Install MHWD Configuration
 Policy=auth_admin
 Persistence=session
 
-[org.manjaro.msm.mhwd.remove]
+[org.garuda.msm.mhwd.remove]
 Name=Remove MHWD Configuration
 Description=Remove MHWD Configuration
 Policy=auth_admin

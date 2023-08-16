@@ -1,20 +1,20 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "KernelListViewDelegate.h"
@@ -61,7 +61,7 @@ KernelListViewDelegate::paint( QPainter* painter, const QStyleOptionViewItem& op
 
     QString package = qvariant_cast<QString>( index.data( KernelModel::PackageRole ) );
     QString version = qvariant_cast<QString>( index.data( KernelModel::VersionRole ) );
-    QString name = ( "Linux " + version );
+    QString name = ( package );
     //bool isAvailable = qvariant_cast<bool>( index.data( KernelModel::IsAvailableRole ) );
     bool isInstalled = qvariant_cast<bool>( index.data( KernelModel::IsInstalledRole ) );
     bool isLts = qvariant_cast<bool>( index.data( KernelModel::IsLtsRole ) );
@@ -238,13 +238,13 @@ KernelListViewDelegate::paint( QPainter* painter, const QStyleOptionViewItem& op
     QFont packageFont = option.font;
     packageFont.setPointSize( option.font.pointSize() * 0.9 );
     QFontMetrics packageFontMetrics( packageFont );
-    QSize packageSize = packageFontMetrics.size( Qt::TextSingleLine, package );
+    QSize packageSize = packageFontMetrics.size( Qt::TextSingleLine, version );
     QRectF packageRect( QPointF(), packageSize );
 
     painter->setPen( option.palette.color( QPalette::Normal, QPalette::WindowText ) );
     packageRect.moveTopLeft( nameRect.bottomLeft() );
     painter->setFont( packageFont );
-    painter->drawText( packageRect, Qt::TextSingleLine, package );
+    painter->drawText( packageRect, Qt::TextSingleLine, version );
 
     painter->restore();
 }

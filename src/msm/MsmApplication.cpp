@@ -1,21 +1,21 @@
 /*
- *  This file is part of Manjaro Settings Manager.
+ *  This file is part of Garuda Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *  Kacper Piwiński
  *
- *  Manjaro Settings Manager is free software: you can redistribute it and/or modify
+ *  Garuda Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Manjaro Settings Manager is distributed in the hope that it will be useful,
+ *  Garuda Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Manjaro Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "MsmApplication.h"
@@ -29,16 +29,16 @@ MsmApplication::MsmApplication( int& argc, char* argv[] )
     : QApplication( argc, argv ),
       m_mainwindow( 0 )
 {
-    setOrganizationName( "Manjaro" );
-    setOrganizationDomain( "Manjaro" );
-    setApplicationName( "Manjaro Settings Manager" );
-    setApplicationVersion( "0.5.6" );
+    setOrganizationName( "Garuda" );
+    setOrganizationDomain( "Garuda" );
+    setApplicationName( "Garuda Settings Manager" );
+    setApplicationVersion( "0.5.5" );
 }
 
 
 MsmApplication::~MsmApplication()
 {
-    qDebug() << "Shutting down Manjaro Settings Manager...";
+    qDebug() << "Shutting down Garuda Settings Manager...";
 }
 
 
@@ -89,6 +89,7 @@ MsmApplication::isDebug()
 MsmWindow*
 MsmApplication::mainWindow()
 {
+    setAttribute(Qt::AA_EnableHighDpiScaling, true);
     return m_mainwindow;
 }
 

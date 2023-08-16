@@ -194,8 +194,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove manjaro kernels</source>
-        <translation>Agregar y quitar kernels de manjaro</translation>
+        <source>Add and remove garuda kernels</source>
+        <translation>Agregar y quitar kernels de garuda</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Manjaro Hardware Detection graphical user interface</source>
-        <translation>Interfaz gráfica de Detección de Hardware de Manjaro</translation>
+        <source>Garuda Hardware Detection graphical user interface</source>
+        <translation>Interfaz gráfica de Detección de Hardware de Garuda</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Gestor de Configuración de Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Gestor de Configuración de Garuda</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Manjaro Settings</source>
-        <translation>Configuraciones de Manjaro</translation>
+        <source>Garuda Settings</source>
+        <translation>Configuraciones de Garuda</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Es recomendable activar estos grupos. ¿Estás seguro que quieres continuar?</tr
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Gestor de Configuración de Manjaro</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Gestor de Configuración de Garuda</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

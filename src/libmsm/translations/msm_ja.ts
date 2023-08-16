@@ -193,7 +193,7 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
-        <source>Add and remove manjaro kernels</source>
+        <source>Add and remove garuda kernels</source>
         <translation>カーネルの追加と削除</translation>
     </message>
     <message>
@@ -572,8 +572,8 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Manjaro Hardware Detection graphical user interface</source>
-        <translation>Manjaro Hardware Detection graphical user interface</translation>
+        <source>Garuda Hardware Detection graphical user interface</source>
+        <translation>Garuda Hardware Detection graphical user interface</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -643,8 +643,8 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Manjaroセッティングマネージャー</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Garudaセッティングマネージャー</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -674,8 +674,8 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Manjaro Settings</source>
-        <translation>Manjaroの設定</translation>
+        <source>Garuda Settings</source>
+        <translation>Garudaの設定</translation>
     </message>
 </context>
 <context>
@@ -713,8 +713,8 @@ It is recommended to enable those groups. Do you really want to continue?</sourc
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Manjaro Settings Manager</source>
-        <translation>Manjaroセッティングマネージャー</translation>
+        <source>Garuda Settings Manager</source>
+        <translation>Garudaセッティングマネージャー</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>
