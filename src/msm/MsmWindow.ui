@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Garuda Settings Manager</string>
+   <string>XeroLinux Settings Manager</string>
   </property>
   <property name="windowIcon">
    <iconset resource="msm.qrc">
