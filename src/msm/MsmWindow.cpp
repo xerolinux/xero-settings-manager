@@ -43,14 +43,6 @@ MsmWindow::MsmWindow( QWidget* parent ) :
     ui->listWidget->setWordWrap( true );
     ui->listWidget->addSeparator( tr( "System Settings" ) );
     addPageWidget( pageKernel );
-    addPageWidget( pageLanguagePackages );
-    addPageWidget( pageUsers );
-    addPageWidget( pageTimeDate );
-    addPageWidget( pageKeyboard );
-    addPageWidget( pageLanguage );
-
-
-
 
     // Connect signals and slots
     connect( ui->buttonQuit, &QPushButton::clicked,
@@ -195,7 +187,7 @@ MsmWindow::closePageRequested( PageWidget* page )
 void
 MsmWindow::writePositionSettings()
 {
-    QSettings settings( "garuda", "garuda-settings-manager" );
+    QSettings settings( "xero", "xero-settings-manager" );
 
     settings.beginGroup( "mainwindow" );
 
@@ -215,7 +207,7 @@ MsmWindow::writePositionSettings()
 void
 MsmWindow::readPositionSettings()
 {
-    QSettings settings( "garuda", "garuda-settings-manager" );
+    QSettings settings( "xero", "xero-settings-manager" );
 
     settings.beginGroup( "mainwindow" );
 

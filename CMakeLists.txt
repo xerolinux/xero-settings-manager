@@ -1,4 +1,4 @@
-project(garuda-settings-manager)
+project(xero-settings-manager)
 SET(PROJECT_VERSION "0.5.6")
 
 cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
