@@ -1,18 +1,18 @@
 [Desktop Entry]
-Name=Garuda Notifier Settings
-Name[da]=Garuda-notifikatorindstillinger
-Name[fr]=Paramètres du Notifieur Garuda
-Name[hu]=Garuda Értesítő beállítások
-Name[pl]=Ustawienia powiadomień Garuda
-Name[sk]=Nastavenia oznámení systému Garuda
+Name=XeroLinux Notifier Settings
+Name[da]=XeroLinux-notifikatorindstillinger
+Name[fr]=Paramètres du Notifieur XeroLinux
+Name[hu]=XeroLinux Értesítő beállítások
+Name[pl]=Ustawienia powiadomień XeroLinux
+Name[sk]=Nastavenia oznámení systému XeroLinux
 
-Comment=Graphical Settings for Garuda Notifier
-Comment[da]=Grafiske indstillinger til Garuda-notifikator
-Comment[de]=Grafische Einstellungsverwaltung für Garuda
-Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur Garuda
-Comment[hu]=A Garuda Notifier értesítéseinek beállítása
-Comment[pl]=Graficzne ustawienia powiadomień systemu Garuda
-Comment[sk]=Grafické nastavenia oznámení pre systém Garuda
+Comment=Graphical Settings for XeroLinux Notifier
+Comment[da]=Grafiske indstillinger til XeroLinux-notifikator
+Comment[de]=Grafische Einstellungsverwaltung für XeroLinux
+Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur XeroLinux
+Comment[hu]=A XeroLinux Notifier értesítéseinek beállítása
+Comment[pl]=Graficzne ustawienia powiadomień systemu XeroLinux
+Comment[sk]=Grafické nastavenia oznámení pre systém XeroLinux
 
 Exec=msm_notifier --settings
 Icon=preferences-desktop

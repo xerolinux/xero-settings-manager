@@ -1,18 +1,18 @@
 [Desktop Entry]
-Name=Garuda Notifier KDE Settings
-Name[da]=Garuda-notifikator KDE-indstillinger
-Name[fr]=Paramètres du Notifieur KDE Garuda
-Name[hu]=A Garuda Notifier KDE beállítása
-Name[pl]=Ustawienia powiadomień Garuda dla KDE
-Name[sk]=Nastavenia oznámení KDE systému Garuda
+Name=XeroLinux Notifier KDE Settings
+Name[da]=XeroLinux-notifikator KDE-indstillinger
+Name[fr]=Paramètres du Notifieur KDE XeroLinux
+Name[hu]=A XeroLinux Notifier KDE beállítása
+Name[pl]=Ustawienia powiadomień XeroLinux dla KDE
+Name[sk]=Nastavenia oznámení KDE systému XeroLinux
 
-Comment=Graphical Settings for Garuda Notifier KDE
-Comment[da]=Grafiske indstillinger til Garuda-notifikator KDE
-Comment[de]=Grafische Einstellungsverwaltung für Garuda
-Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur Garuda
-Comment[hu]=Grafikus beállításkezelő a Garuda KDE Értesítőhöz
-Comment[pl]=Graficzne ustawienia powiadomień Garuda dla środowiska KDE
-Comment[sk]=Grafické nastavenia oznámení prostredia KDE pre systém Garuda
+Comment=Graphical Settings for XeroLinux Notifier KDE
+Comment[da]=Grafiske indstillinger til XeroLinux-notifikator KDE
+Comment[de]=Grafische Einstellungsverwaltung für XeroLinux
+Comment[fr]=Gestionnaire graphique de paramètres pour Notifieur XeroLinux
+Comment[hu]=Grafikus beállításkezelő a XeroLinux KDE Értesítőhöz
+Comment[pl]=Graficzne ustawienia powiadomień XeroLinux dla środowiska KDE
+Comment[sk]=Grafické nastavenia oznámení prostredia KDE pre systém XeroLinux
 
 Exec=msm_kde_notifier --settings
 Icon=preferences-desktop
