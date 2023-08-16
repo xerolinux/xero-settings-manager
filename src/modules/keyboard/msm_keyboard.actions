@@ -1,0 +1,11 @@
+[Domain]
+Name=garuda-settings-manager
+Name[x-test]=xxgaruda-settings-managerxx
+Icon=kauth-example
+URL=https://github.com/garuda/garuda-settings-manager
+
+[org.garuda.msm.keyboard.save]
+Name=Save Keyboard Settings
+Description=Save Keyboard Settings
+Policy=auth_admin
+Persistence=session

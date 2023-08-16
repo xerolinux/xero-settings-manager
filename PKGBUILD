@@ -6,13 +6,13 @@ _pkgbase=xero-settings-manager
 pkgname=('xero-settings-manager' 'xero-settings-manager-kcm'
         'xero-settings-manager-knotifier')
 pkgver=1.0.2
-pkgrel=5
+pkgrel=4
 pkgdesc="Xero Linux system settings (Manjaro settings manager ported to work with Arch standards)"
 arch=('x86_64')
 url="https://github.com/xerolinux/$pkgbase"
 license=("GPL")
 depends=('icu' 'qt5-base>=5.12.3' 'hwinfo' 'kitemmodels' 'kauth' 
-         'kcoreaddons' 'ckbcomp' 'xdg-utils')
+         'kcoreaddons' 'ckbcomp' 'xdg-utils' 'mhwd-xerolinux')
 optdepends=('xero-settings-manager-knotifier: knotifications-based')
 makedepends=('git' 'extra-cmake-modules' 'kdoctools' 'qt5-tools' 'knotifications' 
              'kconfigwidgets' 'kcmutils')
