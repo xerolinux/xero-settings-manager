@@ -1,20 +1,20 @@
 # Maintainer: Librewish <librewish@gmail.com>
 # Contributer : Ramon Buldo <ramon@xero.org>
 
-pkgbase=xero-settings-manager-git
+pkgbase=xero-settings-manager
 _pkgbase=xero-settings-manager
-pkgname=('xero-settings-manager-git' 'xero-settings-manager-kcm-git'
-         'xero-settings-manager-notifier-git' 'xero-settings-manager-knotifier-git')
-pkgver=1.0
-pkgrel=1
-pkgdesc="Xero Linux system settings (Manjaro settings manager ported to work with Arch standards and limited to only DKMS drivers)"
-arch=('i686' 'x86_64')
-url="https://github.com/xerolinux/xero-settings-manager"
+pkgname=('xero-settings-manager' 'xero-settings-manager-kcm'
+         'xero-settings-manager-notifier' 'xero-settings-manager-knotifier')
+pkgver=1.0.2
+pkgrel=4
+pkgdesc="Xero Linux system settings (Manjaro settings manager ported to work with Arch standards)"
+arch=('x86_64')
+url="https://github.com/xerolinux/$pkgbase"
 license=("GPL")
 depends=('icu' 'qt5-base>=5.12.3' 'hwinfo' 'kitemmodels' 'kauth' 
          'kcoreaddons' 'ckbcomp' 'xdg-utils')
-optdepends=('xero-settings-manager-notifier-git: qt-based'
-            'xero-settings-manager-knotifier-git: knotifications-based')
+optdepends=('xero-settings-manager-notifier: qt-based'
+            'xero-settings-manager-knotifier: knotifications-based')
 makedepends=('git' 'extra-cmake-modules' 'kdoctools' 'qt5-tools' 'knotifications' 
              'kconfigwidgets' 'kcmutils')
 conflicts=('kcm-msm')
@@ -40,7 +40,7 @@ build() {
   CXXFLAGS+="-std=gnu++98" make
 }
 
-package_xero-settings-manager-git() {
+package_xero-settings-manager() {
   provides=('xero-settings-manager')
   conflicts=('xero-settings-manager')
 
@@ -55,7 +55,7 @@ package_xero-settings-manager-git() {
   rm -rf $pkgdir/etc/xdg
 }
 
-package_xero-settings-manager-kcm-git() {
+package_xero-settings-manager-kcm() {
   pkgdesc="Xero Linux system settings - Plasma 5 KCM"
   depends=('xero-settings-manager' 'kcmutils' 'kconfigwidgets')
   provides=('xero-settings-manager-kcm')
@@ -69,7 +69,7 @@ package_xero-settings-manager-kcm-git() {
   rm -rf $pkgdir/usr/share/{applications,dbus-1,icons,polkit-1}
 }
 
-package_xero-settings-manager-notifier-git() {
+package_xero-settings-manager-notifier() {
   pkgdesc="Xero Linux system settings - notifier"
   depends=('xero-settings-manager')
   provides=('xero-settings-manager-notifier')
@@ -87,7 +87,7 @@ package_xero-settings-manager-notifier-git() {
   rm -rf $pkgdir/usr/bin/msm_kde_notifier
 }
 
-package_xero-settings-manager-knotifier-git() {
+package_xero-settings-manager-knotifier() {
   pkgdesc="Xero Linux system settings - knotifier"
   depends=('xero-settings-manager' 'knotifications')
   provides=('xero-settings-manager-knotifier')
