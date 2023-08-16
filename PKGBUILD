@@ -20,12 +20,6 @@ conflicts=('kcm-msm')
 source=("git+$url.git")
 sha256sums=('SKIP')
 
-pkgver() {
-    cd "$srcdir/$_pkgbase"
-    git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
-}
-
-
 build() {
   cd "$srcdir/$_pkgbase"
   mkdir -p build

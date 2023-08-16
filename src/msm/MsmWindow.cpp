@@ -41,10 +41,9 @@ MsmWindow::MsmWindow( QWidget* parent ) :
     buttonShowAllSettings_clicked();
 
     ui->listWidget->setWordWrap( true );
-    ui->listWidget->addSeparator( tr( "Hardware" ) );
+    ui->listWidget->addSeparator( tr( "System Settings" ) );
     addPageWidget( pageKernel );
     addPageWidget( pageLanguagePackages );
-    ui->listWidget->addSeparator( tr( "System" ) );
     addPageWidget( pageUsers );
     addPageWidget( pageTimeDate );
     addPageWidget( pageKeyboard );
