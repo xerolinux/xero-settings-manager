@@ -33,6 +33,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QListWidgetItem>
+#include <QDesktopWidget>
 #include <QFile>
 #include <QTextStream>
 #include <QDir>
