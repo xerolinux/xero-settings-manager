@@ -99,7 +99,7 @@
 -DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
 -DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
@@ -218,7 +218,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/msm</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/msm</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -289,7 +289,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/notifier/notifier_kde</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/notifier/notifier_kde</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -360,7 +360,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/kernel</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/kernel</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -431,7 +431,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/keyboard</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/keyboard</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -502,7 +502,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/language_packages</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/language_packages</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -573,7 +573,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/locale</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/locale</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -644,7 +644,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/mhwd</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/mhwd</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.7">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -715,7 +715,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/notifier/notifier</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/notifier/notifier</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.8">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -786,7 +786,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Garuda/Applications/build-garuda-settings-manager-Desktop-Debug/src/modules/users</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/run/media/sk/data/Xero/Applications/build-xero-settings-manager-Desktop-Debug/src/modules/users</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">9</value>
   </valuemap>
