@@ -22,11 +22,6 @@
 #define MSMWINDOW_H
 
 #include "KernelPage.h"
-#include "KeyboardPage.h"
-#include "LocalePage.h"
-#include "LanguagePackagesPage.h"
-#include "TimeDatePage.h"
-#include "UsersPage.h"
 #include "PageWidget.h"
 
 #include <QApplication>
