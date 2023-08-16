@@ -4,7 +4,7 @@
 pkgbase=xero-settings-manager
 _pkgbase=xero-settings-manager
 pkgname=('xero-settings-manager' 'xero-settings-manager-kcm'
-         'xero-settings-manager-notifier' 'xero-settings-manager-knotifier')
+        'xero-settings-manager-knotifier')
 pkgver=1.0.2
 pkgrel=4
 pkgdesc="Xero Linux system settings (Manjaro settings manager ported to work with Arch standards)"
@@ -13,8 +13,7 @@ url="https://github.com/xerolinux/$pkgbase"
 license=("GPL")
 depends=('icu' 'qt5-base>=5.12.3' 'hwinfo' 'kitemmodels' 'kauth' 
          'kcoreaddons' 'ckbcomp' 'xdg-utils')
-optdepends=('xero-settings-manager-notifier: qt-based'
-            'xero-settings-manager-knotifier: knotifications-based')
+optdepends=('xero-settings-manager-knotifier: knotifications-based')
 makedepends=('git' 'extra-cmake-modules' 'kdoctools' 'qt5-tools' 'knotifications' 
              'kconfigwidgets' 'kcmutils')
 conflicts=('kcm-msm')
@@ -46,11 +45,9 @@ package_xero-settings-manager() {
 
   cd "$srcdir/$_pkgbase/build"
   make DESTDIR=${pkgdir} install 
-  rm -rf $pkgdir/usr/bin/msm_notifier
   rm -rf $pkgdir/usr/bin/msm_kde_notifier
   rm -rf $pkgdir/usr/lib/qt
   rm -rf $pkgdir/usr/share/kservices5
-  rm -rf $pkgdir/usr/share/applications/msm_notifier_settings.desktop
   rm -rf $pkgdir/usr/share/applications/msm_kde_notifier_settings.desktop
   rm -rf $pkgdir/etc/xdg
 }
@@ -69,24 +66,6 @@ package_xero-settings-manager-kcm() {
   rm -rf $pkgdir/usr/share/{applications,dbus-1,icons,polkit-1}
 }
 
-package_xero-settings-manager-notifier() {
-  pkgdesc="Xero Linux system settings - notifier"
-  depends=('xero-settings-manager')
-  provides=('xero-settings-manager-notifier')
-  conflicts=('xero-settings-manager-notifier')
-
-  cd "$srcdir/$_pkgbase/build"
-  make DESTDIR=${pkgdir} install
-  rm -rf $pkgdir/etc/dbus-1
-  rm -rf $pkgdir/etc/xdg/autostart/msm_kde_notifier.desktop
-  rm -rf $pkgdir/usr/lib/
-  rm -rf $pkgdir/usr/share/{kservices5,dbus-1,icons,polkit-1}
-  rm -rf $pkgdir/usr/share/applications/xero*
-  rm -rf $pkgdir/usr/share/applications/msm_kde_notifier_settings.desktop
-  rm -rf $pkgdir/usr/bin/xero*
-  rm -rf $pkgdir/usr/bin/msm_kde_notifier
-}
-
 package_xero-settings-manager-knotifier() {
   pkgdesc="Xero Linux system settings - knotifier"
   depends=('xero-settings-manager' 'knotifications')
@@ -96,11 +75,9 @@ package_xero-settings-manager-knotifier() {
   cd "$srcdir/$_pkgbase/build"
   make DESTDIR=${pkgdir} install
   rm -rf $pkgdir/etc/dbus-1
-  rm -rf $pkgdir/etc/xdg/autostart/msm_notifier.desktop
   rm -rf $pkgdir/usr/lib/
   rm -rf $pkgdir/usr/share/{kservices5,dbus-1,icons,polkit-1}
   rm -rf $pkgdir/usr/share/applications/xero*
-  rm -rf $pkgdir/usr/share/applications/msm_notifier_settings.desktop
   rm -rf $pkgdir/usr/bin/xero*
   rm -rf $pkgdir/usr/bin/msm_notifier
 } 

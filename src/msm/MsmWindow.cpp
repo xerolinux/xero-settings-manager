@@ -42,7 +42,6 @@ MsmWindow::MsmWindow( QWidget* parent ) :
 
     ui->listWidget->setWordWrap( true );
     ui->listWidget->addSeparator( tr( "Hardware" ) );
-    addPageWidget( pageMhwd );
     addPageWidget( pageKernel );
     addPageWidget( pageLanguagePackages );
     ui->listWidget->addSeparator( tr( "System" ) );

@@ -1,3 +1,3 @@
-# garuda-settings-manager
+# xerolinux-settings-manager
 It is a modified version of manjaro-settings-manager
-for Garuda linux.
+for Xerolinux.

@@ -32,7 +32,7 @@ MsmApplication::MsmApplication( int& argc, char* argv[] )
     setOrganizationName( "XeroLinux" );
     setOrganizationDomain( "XeroLinux" );
     setApplicationName( "XeroLinux Settings Manager" );
-    setApplicationVersion( "0.5.5" );
+    setApplicationVersion( "1.0" );
 }
 
 

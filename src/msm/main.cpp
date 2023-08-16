@@ -40,7 +40,6 @@ int main( int argc, char* argv[] )
     Q_INIT_RESOURCE( kernel );
     Q_INIT_RESOURCE( keyboard );
     Q_INIT_RESOURCE( language_packages );
-    Q_INIT_RESOURCE( mhwd );
     Q_INIT_RESOURCE( timedate );
     Q_INIT_RESOURCE( translations );
     Q_INIT_RESOURCE( users );

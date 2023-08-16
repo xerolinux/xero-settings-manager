@@ -1,21 +1,21 @@
 /*
- *  This file is part of Garuda Settings Manager.
+ *  This file is part of XeroLinux Settings Manager.
  *
  *  Ramon Buldó <ramon@manjaro.org>
  *  Kacper Piwiński
  *
- *  Garuda Settings Manager is free software: you can redistribute it and/or modify
+ *  XeroLinux Settings Manager is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  Garuda Settings Manager is distributed in the hope that it will be useful,
+ *  XeroLinux Settings Manager is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Garuda Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with XeroLinux Settings Manager.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include "LanguageCommon.h"
@@ -38,7 +38,7 @@ Notifier::Notifier( QObject* parent ) :
     QObject( parent )
 {
     m_tray = new KStatusNotifierItem( this );
-    m_tray->setTitle( tr ( "Garuda Settings Manager" ) );
+    m_tray->setTitle( tr ( "XeroLinux Settings Manager" ) );
     m_tray->setIconByName( "garuda-settings-manager" );
 
     QMenu* menu = m_tray->contextMenu();
@@ -183,7 +183,7 @@ Notifier::cLanguagePackage()
     {
         qDebug() << "Missing language packages found, notifying user...";
         m_tray->setStatus( KStatusNotifierItem::Active );
-        m_tray->showMessage( tr( "Garuda Settings Manager" ),
+        m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
                              tr( "%n new additional language package(s) available", "", packageNumber ),
                              "dialog-information",
                              10000 );
@@ -222,7 +222,7 @@ Notifier::cKernel()
         if ( foundRunning )
         {
             m_tray->setStatus( KStatusNotifierItem::Active );
-            m_tray->showMessage( tr( "Garuda Settings Manager" ),
+            m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
                                  tr( "Running an unsupported kernel, please update." ),
                                  "dialog-warning",
                                  10000 );
@@ -230,7 +230,7 @@ Notifier::cKernel()
         else if ( found )
         {
             m_tray->setStatus( KStatusNotifierItem::Active );
-            m_tray->showMessage( tr( "Garuda Settings Manager" ),
+            m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
                                  tr( "Unsupported kernel installed in your system, please remove it." ),
                                  "dialog-information",
                                  10000 );
@@ -283,7 +283,7 @@ Notifier::cKernel()
 void Notifier::showNewKernelNotification()
 {
     m_tray->setStatus( KStatusNotifierItem::Active );
-    m_tray->showMessage( tr( "Garuda Settings Manager" ),
+    m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
                          tr( "Newer kernel is available, please update." ),
                          "dialog-information",
                          10000 );

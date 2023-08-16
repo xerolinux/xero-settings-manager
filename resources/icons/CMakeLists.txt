@@ -1,4 +1,4 @@
 
 ecm_install_icons(ICONS
-    sc-apps-garuda-settings-manager.svg
+    xerolinux.png
     DESTINATION ${ICON_INSTALL_DIR})
