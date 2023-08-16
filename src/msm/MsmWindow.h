@@ -69,11 +69,6 @@ private:
 
     Ui::MsmWindow* ui;
     KernelPage pageKernel;
-    KeyboardPage pageKeyboard;
-    LocalePage pageLanguage;
-    LanguagePackagesPage pageLanguagePackages;
-    TimeDatePage pageTimeDate;
-    UsersPage pageUsers;
 
     void addPageWidget( PageWidget& page );
     void closeEvent( QCloseEvent* );
