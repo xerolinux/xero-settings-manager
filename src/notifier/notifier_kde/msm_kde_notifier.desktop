@@ -4,4 +4,5 @@ Name=MSM Notifier
 Type=Application
 StartupNotify=false
 Terminal=false
+Icon=kdeapp
 Hidden=false

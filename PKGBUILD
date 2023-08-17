@@ -5,8 +5,8 @@ pkgbase=xero-settings-manager
 _pkgbase=xero-settings-manager
 pkgname=('xero-settings-manager' 'xero-settings-manager-kcm'
         'xero-settings-manager-knotifier')
-pkgver=1.0.2
-pkgrel=4
+pkgver=1.0.3
+pkgrel=1
 pkgdesc="Xero Linux system settings (Manjaro settings manager ported to work with Arch standards)"
 arch=('x86_64')
 url="https://github.com/xerolinux/$pkgbase"
