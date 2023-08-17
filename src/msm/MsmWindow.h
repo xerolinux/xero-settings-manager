@@ -22,10 +22,10 @@
 #define MSMWINDOW_H
 
 #include "KernelPage.h"
+#include "UsersPage.h"
 #include "KeyboardPage.h"
 #include "LanguagePackagesPage.h"
 #include "TimeDatePage.h"
-#include "UsersPage.h"
 #include "PageWidget.h"
 
 #include <QApplication>
@@ -74,6 +74,10 @@ private:
 
     Ui::MsmWindow* ui;
     KernelPage pageKernel;
+    UsersPage pageUsers;
+    KeyboardPage pageKeyboard;
+    LanguagePackagesPage pageLanguagePackages;
+    TimeDatePage pageTimeDate;
 
     void addPageWidget( PageWidget& page );
     void closeEvent( QCloseEvent* );
