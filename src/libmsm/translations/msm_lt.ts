@@ -573,8 +573,8 @@ Rekomenduojama tas grupes įjungti. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Garuda aparatinės įrangos aptikimo grafinė naudotojo sąsaja</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>XeroLinux aparatinės įrangos aptikimo grafinė naudotojo sąsaja</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Rekomenduojama tas grupes įjungti. Ar tikrai norite tęsti?</translation>
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda nustatymų tvarkytuvė</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux nustatymų tvarkytuvė</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Rekomenduojama tas grupes įjungti. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda nustatymai</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux nustatymai</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Rekomenduojama tas grupes įjungti. Ar tikrai norite tęsti?</translation>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda nustatymų tvarkytuvė</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux nustatymų tvarkytuvė</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

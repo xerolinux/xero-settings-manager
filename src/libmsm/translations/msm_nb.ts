@@ -195,7 +195,7 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
         <source>Add and remove xerolinux kernels</source>
-        <translation>Legg til og fjern Garudas kjerner</translation>
+        <translation>Legg til og fjern XeroLinuxs kjerner</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Grensesnitt for Garuda Hardware Detection</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>Grensesnitt for XeroLinux Hardware Detection</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda Innstillinger</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux Innstillinger</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda Innstillinger</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux Innstillinger</translation>
     </message>
 </context>
 <context>
@@ -714,7 +714,7 @@ Det anbefales å aktivere disse gruppene. Ønsker du virkelig å fortsette?</tra
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
+        <source>XeroLinux Settings Manager</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">

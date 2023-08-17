@@ -195,7 +195,7 @@ Se recomienda activar estos grupos. ¿Realmente quiere continuar?</translation>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
         <source>Add and remove xerolinux kernels</source>
-        <translation>Añadir o quitar núcleos Garuda</translation>
+        <translation>Añadir o quitar núcleos XeroLinux</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Se recomienda activar estos grupos. ¿Realmente quiere continuar?</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Interfaz gráfica de usuario para Garuda Hardware Detection</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>Interfaz gráfica de usuario para XeroLinux Hardware Detection</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Se recomienda activar estos grupos. ¿Realmente quiere continuar?</translation>
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Gestor de configuración de Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Gestor de configuración de XeroLinux</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Se recomienda activar estos grupos. ¿Realmente quiere continuar?</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Configuración de Garuda</translation>
+        <source>XeroLinux Settings</source>
+        <translation>Configuración de XeroLinux</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Se recomienda activar estos grupos. ¿Realmente quiere continuar?</translation>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Gestor de configuración de Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Gestor de configuración de XeroLinux</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

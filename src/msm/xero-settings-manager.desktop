@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=XeroLinux Settings Manager
 Name[ca]=Gestor de configuració de XeroLinux

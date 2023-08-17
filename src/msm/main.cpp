@@ -31,7 +31,7 @@
 int main( int argc, char* argv[] )
 {
     #if QT_VERSION >= 0x050600
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+      QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     #endif
 
     MsmApplication app( argc, argv );
@@ -47,8 +47,6 @@ int main( int argc, char* argv[] )
     parser.setApplicationDescription( app.applicationName() );
     parser.addHelpOption();
     //parser.addVersionOption();
-
-
 
     QCommandLineOption debugOption( QStringList() << "d" << "debug",
                                     "Verbose output for debugging purposes." );

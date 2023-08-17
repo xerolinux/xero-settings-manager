@@ -574,7 +574,7 @@ Je důrazně doporučeno připojit tyto skupiny. Opravdu chcete pokračovat?
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -645,8 +645,8 @@ Je důrazně doporučeno připojit tyto skupiny. Opravdu chcete pokračovat?
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Správce nastavení Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Správce nastavení XeroLinux</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -676,8 +676,8 @@ Je důrazně doporučeno připojit tyto skupiny. Opravdu chcete pokračovat?
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Nastavení Garuda</translation>
+        <source>XeroLinux Settings</source>
+        <translation>Nastavení XeroLinux</translation>
     </message>
 </context>
 <context>
@@ -715,8 +715,8 @@ Je důrazně doporučeno připojit tyto skupiny. Opravdu chcete pokračovat?
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Správce nastavení Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Správce nastavení XeroLinux</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

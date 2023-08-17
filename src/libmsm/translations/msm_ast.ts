@@ -573,7 +573,7 @@ Aconséyase habilitar esos grupos. ¿De xuru quies siguir?</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -644,8 +644,8 @@ Aconséyase habilitar esos grupos. ¿De xuru quies siguir?</translation>
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Xestor d&apos;axustes de Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Xestor d&apos;axustes de XeroLinux</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Aconséyase habilitar esos grupos. ¿De xuru quies siguir?</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Axustes de Garuda</translation>
+        <source>XeroLinux Settings</source>
+        <translation>Axustes de XeroLinux</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Aconséyase habilitar esos grupos. ¿De xuru quies siguir?</translation>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Xestor d&apos;axustes de Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Xestor d&apos;axustes de XeroLinux</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

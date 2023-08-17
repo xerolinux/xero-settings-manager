@@ -38,5 +38,22 @@
     <file>changelogs/linux52.html</file>
     <file>changelogs/linux53.html</file>
     <file>changelogs/linux54.html</file>
+    <file>changelogs/linux55.html</file>
+    <file>changelogs/linux56.html</file>
+    <file>changelogs/linux57.html</file>
+    <file>changelogs/linux510.html</file>
+    <file>changelogs/linux511.html</file>
+    <file>changelogs/linux512.html</file>
+    <file>changelogs/linux513.html</file>
+    <file>changelogs/linux514.html</file>
+    <file>changelogs/linux515.html</file>
+    <file>changelogs/linux516.html</file>
+    <file>changelogs/linux517.html</file>
+    <file>changelogs/linux518.html</file>
+    <file>changelogs/linux519.html</file>
+    <file>changelogs/linux60.html</file>
+    <file>changelogs/linux61.html</file>
+    <file>changelogs/linux62.html</file>
+    <file>changelogs/linux63.html</file>
   </qresource>
 </RCC>

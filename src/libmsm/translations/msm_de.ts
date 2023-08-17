@@ -195,7 +195,7 @@ Es wird empfohlen diese zu aktivieren. Wollen Sie trotzdem fortfahren?</translat
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
         <source>Add and remove xerolinux kernels</source>
-        <translation>Garuda-Kernel hinzufügen oder entfernen</translation>
+        <translation>XeroLinux-Kernel hinzufügen oder entfernen</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Es wird empfohlen diese zu aktivieren. Wollen Sie trotzdem fortfahren?</translat
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Grafische Benutzeroberfläche der Garuda-Hardwareerkennung</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>Grafische Benutzeroberfläche der XeroLinux-Hardwareerkennung</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Es wird empfohlen diese zu aktivieren. Wollen Sie trotzdem fortfahren?</translat
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda-Einstellungsmanager</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux-Einstellungsmanager</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Es wird empfohlen diese zu aktivieren. Wollen Sie trotzdem fortfahren?</translat
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda-Einstellungen</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux-Einstellungen</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Es wird empfohlen diese zu aktivieren. Wollen Sie trotzdem fortfahren?</translat
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda-Einstellungsmanager</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux-Einstellungsmanager</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

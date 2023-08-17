@@ -45,7 +45,7 @@ MsmApplication::~MsmApplication()
 void
 MsmApplication::init()
 {
-    setWindowIcon( QIcon::fromTheme( "preferences-desktop" ) );
+    setWindowIcon( QIcon::fromTheme( "preferences-system" ) );
 
     m_mainwindow = new MsmWindow();
 

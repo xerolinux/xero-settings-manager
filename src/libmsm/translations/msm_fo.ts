@@ -573,7 +573,7 @@ Tað er tilmælt at seta hesar bólkar í gildið. Ert tú vísur í at tú vilt
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -644,7 +644,7 @@ Tað er tilmælt at seta hesar bólkar í gildið. Ert tú vísur í at tú vilt
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
+        <source>XeroLinux Settings Manager</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -675,7 +675,7 @@ Tað er tilmælt at seta hesar bólkar í gildið. Ert tú vísur í at tú vilt
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
+        <source>XeroLinux Settings</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -714,7 +714,7 @@ Tað er tilmælt at seta hesar bólkar í gildið. Ert tú vísur í at tú vilt
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
+        <source>XeroLinux Settings Manager</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">

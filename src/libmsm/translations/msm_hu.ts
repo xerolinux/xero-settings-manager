@@ -195,7 +195,7 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
         <source>Add and remove xerolinux kernels</source>
-        <translation>Garuda kernelek hozzáadása és eltávolítása</translation>
+        <translation>XeroLinux kernelek hozzáadása és eltávolítása</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Garuda Hardware Érzékelés grafikus felhasználói felület</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>XeroLinux Hardware Érzékelés grafikus felhasználói felület</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda Beállításkezelő</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux Beállításkezelő</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda Beállítások</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux Beállítások</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Javasolt engedélyezni ezeket a csoportokat. Valóban folytatod?</translation>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda Beállításkezelő</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux Beállításkezelő</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

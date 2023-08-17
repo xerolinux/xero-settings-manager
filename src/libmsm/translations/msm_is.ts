@@ -573,8 +573,8 @@ Mælt er með því að þessir hópar séu virkjaðir. Ertu viss um að þú vi
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Garuda vélbúnaðar greining með grafísku notendaviðmóti</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>XeroLinux vélbúnaðar greining með grafísku notendaviðmóti</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Mælt er með því að þessir hópar séu virkjaðir. Ertu viss um að þú vi
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda stillingastjórnun</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux stillingastjórnun</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Mælt er með því að þessir hópar séu virkjaðir. Ertu viss um að þú vi
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda stillingar</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux stillingar</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Mælt er með því að þessir hópar séu virkjaðir. Ertu viss um að þú vi
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda stillingastjórnun</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux stillingastjórnun</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

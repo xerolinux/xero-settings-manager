@@ -195,7 +195,7 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="46"/>
         <source>Add and remove xerolinux kernels</source>
-        <translation>Garuda için linux çekirdeği ekle ve kaldır</translation>
+        <translation>XeroLinux için linux çekirdeği ekle ve kaldır</translation>
     </message>
     <message>
         <location filename="../../modules/kernel/KernelCommon.cpp" line="77"/>
@@ -573,8 +573,8 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>MHWD - Garuda Donanım Yapılandırma grafik arayüzü</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>MHWD - XeroLinux Donanım Yapılandırma grafik arayüzü</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda Ayar Yönetimi</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux Ayar Yönetimi</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda Ayarları</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux Ayarları</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Grupları etkinleştirmek için bu önerilir. Devam etmek istiyormusunuz?</trans
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda Ayar Yönetimi</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux Ayar Yönetimi</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

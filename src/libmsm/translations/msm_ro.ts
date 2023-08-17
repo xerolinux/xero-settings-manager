@@ -573,8 +573,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Interfața grafică de detectare hardware a sistemului Garuda</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>Interfața grafică de detectare hardware a sistemului XeroLinux</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Managerul de Setări al lui Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Managerul de Setări al lui XeroLinux</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Setările lui Garuda</translation>
+        <source>XeroLinux Settings</source>
+        <translation>Setările lui XeroLinux</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Este recomandat să activați aceste grupe. Doriți să continuați?</translatio
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Managerul de Setări al lui Garuda</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>Managerul de Setări al lui XeroLinux</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

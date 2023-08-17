@@ -573,8 +573,8 @@ Priporočeno je, da te skupine omogočite. Ali res želite nadaljevati?</transla
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="46"/>
-        <source>Garuda Hardware Detection graphical user interface</source>
-        <translation>Garuda strojna zaznava grafičnega vmesnika</translation>
+        <source>XeroLinux Hardware Detection graphical user interface</source>
+        <translation>XeroLinux strojna zaznava grafičnega vmesnika</translation>
     </message>
     <message>
         <location filename="../../modules/mhwd/MhwdCommon.cpp" line="83"/>
@@ -644,8 +644,8 @@ Priporočeno je, da te skupine omogočite. Ali res želite nadaljevati?</transla
     <name>MsmWindow</name>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="14"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda nadzorna plošča</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux nadzorna plošča</translation>
     </message>
     <message>
         <location filename="../../msm/MsmWindow.ui" line="185"/>
@@ -675,8 +675,8 @@ Priporočeno je, da te skupine omogočite. Ali res želite nadaljevati?</transla
     </message>
     <message>
         <location filename="../../msm/MsmWindow.cpp" line="153"/>
-        <source>Garuda Settings</source>
-        <translation>Garuda nastavitve</translation>
+        <source>XeroLinux Settings</source>
+        <translation>XeroLinux nastavitve</translation>
     </message>
 </context>
 <context>
@@ -714,8 +714,8 @@ Priporočeno je, da te skupine omogočite. Ali res želite nadaljevati?</transla
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="220"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="228"/>
         <location filename="../../notifier/notifier_kde/Notifier.cpp" line="281"/>
-        <source>Garuda Settings Manager</source>
-        <translation>Garuda upravljalnik nastavitev</translation>
+        <source>XeroLinux Settings Manager</source>
+        <translation>XeroLinux upravljalnik nastavitev</translation>
     </message>
     <message numerus="yes">
         <location filename="../../notifier/notifier/Notifier.cpp" line="192"/>

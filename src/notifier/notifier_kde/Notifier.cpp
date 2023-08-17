@@ -52,7 +52,7 @@ Notifier::Notifier( QObject* parent ) :
         menu );
 
     QAction* optionsAction = new QAction(
-        QIcon::fromTheme( "preferences-desktop"  ),
+        QIcon::fromTheme( "gtk-preferences"  ),
         tr ( "Options" ),
         menu );
 
