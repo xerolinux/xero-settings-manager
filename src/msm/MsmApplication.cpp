@@ -31,7 +31,7 @@ MsmApplication::MsmApplication( int& argc, char* argv[] )
 {
     setOrganizationName( "XeroLinux" );
     setOrganizationDomain( "XeroLinux" );
-    setApplicationName( "XeroLinux Settings Manager" );
+    setApplicationName( "Xero Settings Manager" );
     setApplicationVersion( "1.0" );
 }
 
@@ -45,7 +45,7 @@ MsmApplication::~MsmApplication()
 void
 MsmApplication::init()
 {
-    setWindowIcon( QIcon::fromTheme( "preferences-system" ) );
+    setWindowIcon( QIcon::fromTheme( "preferences-desktop" ) );
 
     m_mainwindow = new MsmWindow();
 

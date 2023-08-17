@@ -38,7 +38,7 @@ Notifier::Notifier( QObject* parent ) :
     QObject( parent )
 {
     m_tray = new KStatusNotifierItem( this );
-    m_tray->setTitle( tr ( "XeroLinux Settings Manager" ) );
+    m_tray->setTitle( tr ( "Xero Settings Manager" ) );
     m_tray->setIconByName( "xero-settings-manager" );
 
     QMenu* menu = m_tray->contextMenu();
@@ -52,7 +52,7 @@ Notifier::Notifier( QObject* parent ) :
         menu );
 
     QAction* optionsAction = new QAction(
-        QIcon::fromTheme( "gtk-preferences"  ),
+        QIcon::fromTheme( "preferences-desktop"  ),
         tr ( "Options" ),
         menu );
 
@@ -183,7 +183,7 @@ Notifier::cLanguagePackage()
     {
         qDebug() << "Missing language packages found, notifying user...";
         m_tray->setStatus( KStatusNotifierItem::Active );
-        m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
+        m_tray->showMessage( tr( "Xero Settings Manager" ),
                              tr( "%n new additional language package(s) available", "", packageNumber ),
                              "dialog-information",
                              10000 );
@@ -222,7 +222,7 @@ Notifier::cKernel()
         if ( foundRunning )
         {
             m_tray->setStatus( KStatusNotifierItem::Active );
-            m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
+            m_tray->showMessage( tr( "Xero Settings Manager" ),
                                  tr( "Running an unsupported kernel, please update." ),
                                  "dialog-warning",
                                  10000 );
@@ -230,7 +230,7 @@ Notifier::cKernel()
         else if ( found )
         {
             m_tray->setStatus( KStatusNotifierItem::Active );
-            m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
+            m_tray->showMessage( tr( "Xero Settings Manager" ),
                                  tr( "Unsupported kernel installed in your system, please remove it." ),
                                  "dialog-information",
                                  10000 );
@@ -283,7 +283,7 @@ Notifier::cKernel()
 void Notifier::showNewKernelNotification()
 {
     m_tray->setStatus( KStatusNotifierItem::Active );
-    m_tray->showMessage( tr( "XeroLinux Settings Manager" ),
+    m_tray->showMessage( tr( "Xero Settings Manager" ),
                          tr( "Newer kernel is available, please update." ),
                          "dialog-information",
                          10000 );

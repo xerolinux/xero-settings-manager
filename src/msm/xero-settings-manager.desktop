@@ -22,7 +22,7 @@ Comment[ro]=Gestionar grafic de setări de sistem pt. XeroLinux
 Comment[sk]=Grafický správca nastavení pre systém XeroLinux
 
 Exec=xero-settings-manager
-Icon=/usr/share/pixmaps/xerolinux.png
+Icon=preferences-desktop
 Terminal=false
 Type=Application
 Categories=Settings;DesktopSettings;X-LXDE-Settings;X-KDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
